@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-    char first_valur,midele_value,last_value;
+    char first_value,midele_value,last_value;
     int num,count=0;
     scanf("%d",&num);
     for (int i = 0; i < num; i++) {
-        scanf(" %c%c%c",&first_valur,&midele_value,&last_value);
+        // inside scanf first value use whitespech.
+        scanf(" %c%c%c",&first_value,&midele_value,&last_value);
         if(midele_value =='+'){
             count++;
         } else if(midele_value=='-'){
